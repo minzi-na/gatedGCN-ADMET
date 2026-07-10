@@ -1,0 +1,16 @@
+# model checkpoints
+save/*.pth
+save/**/*.pth
+
+# jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# os
+.DS_Store

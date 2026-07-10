@@ -1,0 +1,23 @@
+name: gatedgcn-admet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  # RDKit pinned for descriptor reproducibility (2024.9.6 -> 217 descriptors)
+  - rdkit=2024.9.6
+  - pandas
+  - numpy
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - seaborn
+  - tqdm
+  - jupyterlab
+  - pip
+  - pip:
+      # PyTorch + DGL: install the build matching your CUDA/CPU setup.
+      # CPU example shown; for GPU see https://www.dgl.ai/pages/start.html
+      - torch
+      - dgl
+      - optuna
