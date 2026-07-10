@@ -20,14 +20,16 @@ the data / environment needed to reproduce it.
 LogD · KSOL · HLM CLint · MLM CLint · Caco-2 Permeability (Papp A>B) ·
 Caco-2 Permeability (Efflux) · MPPB · MBPB · MGMB
 
-## Leaderboard results (recorded)
+## Results (self-recorded)
 
-| Variant                       | num_layer | MA-RAE | Rank |
-|-------------------------------|-----------|--------|------|
-| GatedGCN base (this repo)     | 9         | 0.76   | 67   |
-| GatedGCN + only-ECFP variant  | 10        | 0.69   | 31   |
+| Variant                       | num_layer | MA-RAE |
+|-------------------------------|-----------|--------|
+| GatedGCN base (this repo)     | 9         | 0.76   |
+| GatedGCN + only-ECFP variant  | 10        | 0.69   |
 
 Scored by Macro-Averaged Relative Absolute Error (MA-RAE) on the blinded test set.
+These MA-RAE values are self-recorded during the challenge and are not verified
+against the final leaderboard.
 
 ## Data
 
